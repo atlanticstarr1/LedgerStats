@@ -4,3 +4,6 @@ Using this, you can calculate a number of statistics such as average depth of th
 
 # Requirements
 .Net 4.5 or higher, C# 2017	
+
+# Sample Execution
+./ledgerstats database.txt
