@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
+//Name: David Noel
+//Project: Iota Ledger Statistics
+//Date: May 3rd 2018
 namespace LedgerStats
 {
     public class Program
