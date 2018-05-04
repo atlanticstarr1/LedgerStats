@@ -69,7 +69,7 @@ namespace LedgerStats
                 Stats.Append(String.Format("\nAVG DAG DEPTH: {0:0.00}\n", GetAvgDagDepth()));
                 Stats.Append(String.Format("AVG TXS PER DEPTH: {0:0.00}\n", GetAvgTxnPerDepth()));
                 Stats.Append(String.Format("AVG REF: {0:0.000}\n", GetAvgRef()));
-                Stats.Append(String.Format("AVG INCOMING TXS RATE: {0:0.00}\n", rate));    // ?
+                Stats.Append(String.Format("AVG INCOMING TXS RATE: {0:0.00}\n", rate));    // λ
                 Stats.Append(String.Format("TRANSACTION LATENCY: {0:0.0}\n", GetTransactionLatency()));    // Elapsed time before seeing transaction
                 return Stats.ToString();
             }
